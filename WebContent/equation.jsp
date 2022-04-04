@@ -32,8 +32,8 @@ else if (discriminant==0) {
   	 	 x2 = (-b-Math.sqrt(discriminant))/2.0/a;
   	 	 
    		 out.println("valeur de discriminant: " + discriminant+"<br/>" );
-   	     out.println("<li>valeur de x1 = " + x1 +"<br/>");
-  	 	 out.println("<li>valeur de x2 = " + x2 +"<br/>");
+   	     out.println("valeur de x1 = " + x1 +"<br/>");
+  	 	 out.println("valeur de x2 = " + x2 +"<br/>");
    	
 	
 }
