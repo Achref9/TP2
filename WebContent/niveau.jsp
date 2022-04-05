@@ -13,7 +13,7 @@
 <% int x1=0; 
  int x2=0;
  int S=0; %>
-<% String name = request.getParameter("nom"); %>
+<% String nom = request.getParameter("nom"); %>
 
 
 
@@ -54,13 +54,13 @@ else if(request.getParameter("programmation").equals("bonne")) {
 
 <%
 if (S<3) {
-	out.println("<h1>" +name + "Vous êtes un débutant</h1>");
+	out.println("<h1>" + nom + " Vous êtes un débutant</h1>");
 }
 else if (( S>2 ) && ( S<5 )) {
-	out.println("<h1>" +name + "Vous avez un niveau moyen</h1>");
+	out.println("<h1>" + nom + " Vous avez un niveau moyen</h1>");
 }
 else {
-	out.println("<h1>" +name + "Vous êtes un expert !</h1>");
+	out.println("<h1>" +nom + " Vous êtes un expert !</h1>");
 }
 
 %>
