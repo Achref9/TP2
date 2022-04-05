@@ -12,10 +12,10 @@
 
 <%
 if (request.getParameter("sexe").equals("H")) {
-	out.println("<h1>Votre Poid idéal = " + ((62.1 * taille) - 44.7)+"</h1>");
+	out.println("<h1 style='color:blue'>Votre Poid idéal = " + ((62.1 * taille) - 44.7)+"</h1>");
 	}
 else {
-	out.println("<h1>Votre Poid idéal = " + ((72.7 * taille) - 58) + "</h1>");
+	out.println("<h1 style='color:pink'>Votre Poid idéal = " + ((72.7 * taille) - 58) + "</h1>");
 }%>
 </body>
 </html>
