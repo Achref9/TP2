@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%! int N=20; %>
+    <%! int N=10; %>
     <%! int i; %>
     <%! int j; %>
 <!DOCTYPE html>

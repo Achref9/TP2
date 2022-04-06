@@ -8,6 +8,17 @@
 </head>
 <body>
 <% String nom = request.getParameter("nom"); %>
-<p>Hello <% out.println(nom);%></p>
+<%
+if(request.getParameter("nom")== null){
+	%>
+<p>please enter your name.
+<%
+}
+else{
+%>
+
+<p>Hello <%= request.getParameter("nom")%></p>
+<%}
+%>
 </body>
 </html>
