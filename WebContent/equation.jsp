@@ -32,6 +32,7 @@ else if (DELTA==0) {
   	 	 x2 = (-b-Math.sqrt(DELTA))/2.0/a;
   	 	 
    		 out.println("<H1 style='background-color:green'>valeur de DELTA: " + DELTA+"</H1><br/>" );
+   		out.println("<H1>Les solutions</H1><br/>" );
    	     out.println("<H1 style='background-color:green'>valeur de x1 = " + x1 +"</H1><br/>");
   	 	 out.println("<H1 style='background-color:green'>valeur de x2 = " + x2 +"</H1><br/>");
    	
